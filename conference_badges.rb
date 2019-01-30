@@ -15,11 +15,9 @@ def assign_rooms(speakers)
 end 
 
 def printer(attendees)
-  #names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   batch_badge_creator(attendees).each do | string |
     puts string
   end 
-  #puts assign_rooms(attendees)
   assign_rooms(attendees).each do | string |
     puts string
   end
