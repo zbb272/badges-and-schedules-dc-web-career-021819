@@ -14,10 +14,8 @@ def assign_rooms(speakers)
   rooms 
 end 
 
-def printer
-  names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  puts batch_badge_creator(names)
-  puts assign_rooms(names)
+def printer(attendees)
+  #names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
 end 
-
-printer
