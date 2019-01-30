@@ -17,5 +17,8 @@ end
 def printer(attendees)
   #names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   puts batch_badge_creator(attendees)
-  puts assign_rooms(attendees)
+  #puts assign_rooms(attendees)
+  assign_rooms(attendees).each do | string |
+    puts string
+  end
 end 
